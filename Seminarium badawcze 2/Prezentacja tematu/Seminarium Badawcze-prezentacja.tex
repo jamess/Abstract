@@ -1,0 +1,237 @@
+\documentclass[10pt, xcolor=dvipsnames,compress,handout]{beamer} 
+%\documentclass[10pt, xcolor=dvipsnames,compress]{beamer} 
+%jeœli chcemy dokument przeznaczony do wydruku doajemy opcjê: handout
+
+\usecolortheme[named=Blue]{structure}
+%\documentclass[10pt, brown,bookmarks=false]{beamer}
+\usetheme{Warsaw}
+
+%co dla punktów 
+\setbeamertemplate{items}[ball] 
+%dostêpne s¹   ball:  3-dimensional balls
+%					circle: 2-dimensional (flat) circles
+%					rectangle: rectangles
+%					default: triangles
+
+%To add rounded corners and a shadow to the box that surrounds the theorem in the sample slides shown above, do:
+\setbeamertemplate{blocks}[rounded][shadow=true] 
+
+%wy³¹czenie nawigacji :  \setbeamertemplate{navigation symbols}{} 
+
+%adding an informative footline: \useoutertheme{infolines} 
+
+\usepackage[MeX]{polski}
+\usepackage[cp1250]{inputenc}  % Polskie literki...
+\usepackage[polish]{babel}     %
+\usepackage{parskip}
+\usepackage{latexsym,gensymb,amsmath,amssymb,amsthm}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{hyperref}
+
+
+%\usepackage[table]{xcolor}
+\usepackage{colortbl}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{1ex}
+\renewcommand{\qedsymbol}{$\square$}
+\newenvironment{dowod}{{\bf Dowód.}}{\hfill\rule[0.025cm]{0.21cm}{0.21cm}}
+\newtheorem{tw}{Twierdzenie}
+\newtheorem{fakt}{Fakt}
+\newtheorem{lemat}{Lemat}
+\newtheorem{wn}{Wniosek}
+
+%alfabetycznie :)
+\author{
+Tomasz Kubiak\\
+Jaros³aw Polech\\
+Micha³ Porêbski}
+
+\institute{Politechnika Wroc³awska WPPT}
+\date{17 kwiecieñ 2010}
+\title{%Seminarium Badawcze: \\
+"Distributed Random Digraph Transformations for Peer-to-Peer Networks"}
+
+\begin{document}
+
+\section{Start}
+%pierwsza ramka (slajd) ze stron¹ tytu³ow¹ :)
+\frame{\titlepage
+
+	 %\transdissolve<1>[duration=0.2]
+}
+
+%%UWAGA: Ka¿dy wystêpuje 2 razy, ¿eby siê prezentacja zbyt mocno nie wyd³u¿y³a, ka¿dy ma do zuzycia (³¹cznie w dwóch wyst¹pieniach) maksymalnie 12 ramek/stron.
+% Nie wstawiajcie rzyczy, które mo¿na ³atwo narysowaæ i które s¹ nie istotne. Prezentacja ma pilnow¹æ kolejnoœci i POMAGAÆ W NASZYM PREZENTWOANIU/MÓWIENIU.
+
+%%%%------MICHA£
+%wstêp + pojêcia + flipper
+\section{Wstêp}
+	\subsection{Pojêcia wstêpne}
+		\frame{\frametitle{Nazwa strony slajdu}
+			\begin{block}{Nag³ówek bloku(mo¿e byæ bez)}
+				\begin{center}
+					Treœæ bloku.
+				\end{center}
+			\end{block}
+			\begin{itemize}
+				\item<1-> punkt 1
+				\item<2-> punkt 2
+			\end{itemize}	  
+		}	
+	\subsection{1-Flipper}
+		\frame{\frametitle{Nazwa strony slajdu}
+			\begin{block}{Nag³ówek bloku(mo¿e byæ bez)}
+				\begin{center}
+					Treœæ bloku.
+				\end{center}
+			\end{block}
+			\begin{itemize}
+				\item<1-> punkt 1
+				\item<2-> punkt 2
+			\end{itemize}	  
+		}	
+
+%%%%------JAREK
+%2.0 + 2.1 + 2.1Appendix
+\section{Pointer Push and Pull}
+	\subsection{2.1}
+		\frame{\frametitle{Nazwa strony slajdu}
+			\begin{block}{Nag³ówek bloku(mo¿e byæ bez)}
+				\begin{center}
+					Treœæ bloku.
+				\end{center}
+			\end{block}
+			\begin{itemize}
+				\item<1-> punkt 1
+				\item<2-> punkt 2
+			\end{itemize}	  
+		}	
+	\subsection{2.1Appendix}
+		\frame{\frametitle{Nazwa strony slajdu}
+			\begin{block}{Nag³ówek bloku(mo¿e byæ bez)}
+				\begin{center}
+					Treœæ bloku.
+				\end{center}
+			\end{block}
+			\begin{itemize}
+				\item<1-> punkt 1
+				\item<2-> punkt 2
+			\end{itemize}	  
+		}	
+
+
+%%%%------TOMEK
+%2.2
+	\subsection{2.2}
+		\frame{\frametitle{Nazwa strony slajdu}
+			\begin{block}{Nag³ówek bloku(mo¿e byæ bez)}
+				\begin{center}
+					Treœæ bloku.
+				\end{center}
+			\end{block}
+			\begin{itemize}
+				\item<1-> punkt 1
+				\item<2-> punkt 2
+			\end{itemize}	  
+		}	
+
+%%%%------MICHA£
+%2.3
+	\subsection{2.3}
+		\frame{\frametitle{Nazwa strony slajdu}
+			\begin{block}{Nag³ówek bloku(mo¿e byæ bez)}
+				\begin{center}
+					Treœæ bloku.
+				\end{center}
+			\end{block}
+			\begin{itemize}
+				\item<1-> punkt 1
+				\item<2-> punkt 2
+			\end{itemize}	  
+		}	
+%%%%------JAREK
+%3
+\section{3}
+	\frame{\frametitle{Nazwa strony slajdu}
+			\begin{block}{Nag³ówek bloku(mo¿e byæ bez)}
+				\begin{center}
+					Treœæ bloku.
+				\end{center}
+			\end{block}
+			\begin{itemize}
+				\item<1-> punkt 1
+				\item<2-> punkt 2
+			\end{itemize}	  
+		}	
+
+%%%%------TOMEK
+%4
+\section{3}
+	\frame{\frametitle{Nazwa strony slajdu}
+			\begin{block}{Nag³ówek bloku(mo¿e byæ bez)}
+				\begin{center}
+					Treœæ bloku.
+				\end{center}
+			\end{block}
+			\begin{itemize}
+				\item<1-> punkt 1
+				\item<2-> punkt 2
+			\end{itemize}	  
+		}	
+
+%%%%%%%%%%%%%%% - przyk³adów kilka "ramek"
+\section{Tutaj nazwa sekcji}
+%%Frame = jeden slajd
+	\frame{
+		\frametitle{Tutaj jest nazwa ramki - czytaj slajdu}
+			\begin{block}{Tu jest blok}
+				\begin{center}
+					tutaj jest tekst
+					%tak siê za³¹cza obrazki
+					%\includegraphics[scale=0.4]{obrazy/PashaBulker2.jpg}
+				\end{center}
+			\end{block}
+			\begin{block}{Kolejny blok}
+				\begin{center}
+					kolejny tekst
+	
+				\end{center}
+			\end{block}
+	
+			%\transblindshorizontal<1>
+	}
+%%%% tutaj siê koñczy ramka
+	\subsection{Podrozdzia³}
+	\frame{
+		\frametitle{Tytu³ kolejnej ramki} 
+			\begin{itemize}
+				\item<1-> pocz¹tek lat 70-tych poszukiwanie nowej technologi zapisu danych
+				\item<2-> 1979 -- dwie firmy Philips oraz Sony podpisuj¹ umowê o wspó³pracy
+				\item<3-> 1 paŸdziernika 1982 -- album Billy Joel'a ''52nd Street'' oraz pierwszy odtwarzacz Sony CDP-101
+				\item<4-> 1985 -- opracowanie standardu CD-ROM
+				\item<5-> 1986 -- ponad 5000 dostêpnych pozycji
+				\item<6-> 1990 –- opracowanie CD-R (p³yty zapisywalnej)
+			\end{itemize}	  
+	  }
+
+	\subsection{Kolejny podrozdzia³ itd..}
+	\frame{\frametitle{ramka 3}
+	\begin{block}{}
+	Standardowo dysk CD to kr¹¿ek o œrednicy 12 centymetrów z otworem po œrodku, który przeznaczony jest na wirnik poruszaj¹cy p³ytê w czytniku
+	\newline
+	%\pause
+	\end{block}
+	\transglitter[direction=315]<1>
+	}
+
+\subsection{Finish}
+\frame{\frametitle{Koniec}
+	\begin{block}{Pytania?}
+		Nie?\\
+		Danke.
+	\end{block}
+}
+
+\end{document}
